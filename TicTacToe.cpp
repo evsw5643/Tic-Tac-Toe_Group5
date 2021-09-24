@@ -4,6 +4,7 @@
 std::vector< std::vector<char> > board;
 int turn_count = 1;
 
+// Creates 2D vector to represent the game board and initializes it to empty for the start of a game
 std::vector< std::vector<char> > CreateBoard()
 {
     std::vector< std::vector<char> > arr;
@@ -17,6 +18,7 @@ std::vector< std::vector<char> > CreateBoard()
     return arr;
 }
 
+// Displays the game board in the terminal
 void DisplayBoard() {
     for(int i = 0; i < 3; i++) {
         for(int j = 0; j < 3; j++) {
@@ -29,6 +31,7 @@ void DisplayBoard() {
     std::cout<<std::endl;
 }
 
+// Takes a location as a vector<int> and updates the board based on which player's turn it is
 void PlaceMaker(std::vector<int> location) {
     int x = location[0] - 1;
     int y = location[1] - 1;
