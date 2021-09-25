@@ -31,6 +31,23 @@ void DisplayBoard() {
     std::cout<<std::endl;
 }
 
+std::vector<int> GetPlayerChoice() {
+    int row;
+    int col;
+    std::vector<int> v;
+    
+    std::cout<<"Pick a row (1, 2, or 3): ";
+    std::cin>>row;
+    std::cout<<std::endl<<"Pick a column (1, 2, or 3): ";
+    std::cin>>col;
+    std::cout<<std::endl;
+
+    v.push_back(row);
+    v.push_back(col);
+    
+    return v;
+}
+
 // Takes a location as a vector<int> and updates the board based on which player's turn it is
 void PlaceMaker(std::vector<int> location) {
     int x = location[0] - 1;
@@ -44,6 +61,7 @@ void PlaceMaker(std::vector<int> location) {
         board[x][y] = 'O';
     }
     
+    turn_count++;
     DisplayBoard();
 }
 
@@ -51,12 +69,9 @@ int main() {
     board = CreateBoard();
     DisplayBoard();
     
-    std::vector<int> v = {1, 2};
-    std::vector<int> v2 = {2, 3};
+    while(turn_count < 10) {
+        PlaceMaker(GetPlayerChoice());
+    }
     
-    PlaceMaker(v);
-
-    turn_count++;
-
-    PlaceMaker(v2);
+    turn_count = 0;
 }

@@ -1,0 +1,88 @@
+ _  _  _ 
+
+ _  _  _ 
+
+ _  _  _ 
+
+
+Pick a row (1, 2, or 3): 1
+Pick a column (1, 2, or 3): 2
+ _  X  _ 
+
+ _  _  _ 
+
+ _  _  _ 
+
+
+Pick a row (1, 2, or 3): 3
+Pick a column (1, 2, or 3): 3
+ _  X  _ 
+
+ _  _  _ 
+
+ _  _  O 
+
+
+Pick a row (1, 2, or 3): 3
+Pick a column (1, 2, or 3): 2
+ _  X  _ 
+
+ _  _  _ 
+
+ _  X  O 
+
+
+Pick a row (1, 2, or 3): 2
+Pick a column (1, 2, or 3): 2
+ _  X  _ 
+
+ _  O  _ 
+
+ _  X  O 
+
+
+Pick a row (1, 2, or 3): 2
+Pick a column (1, 2, or 3): 1
+ X  X  _ 
+
+ _  O  _ 
+
+ _  X  O 
+
+
+Pick a row (1, 2, or 3): 1
+Pick a column (1, 2, or 3): 3
+ X  X  O 
+
+ _  O  _ 
+
+ _  X  O 
+
+
+Pick a row (1, 2, or 3): 2
+Pick a column (1, 2, or 3): 3
+ X  X  O 
+
+ _  O  X 
+
+ _  X  O 
+
+
+Pick a row (1, 2, or 3): 3
+Pick a column (1, 2, or 3): 1
+ X  X  O 
+
+ _  O  X 
+
+ O  X  O 
+
+
+Pick a row (1, 2, or 3): 2
+Pick a column (1, 2, or 3): 1
+ X  X  O 
+
+ X  O  X 
+
+ O  X  O 
+
+
