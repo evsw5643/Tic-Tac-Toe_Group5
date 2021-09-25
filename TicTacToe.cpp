@@ -31,6 +31,7 @@ void DisplayBoard() {
     std::cout<<std::endl;
 }
 
+// Prompts user for their choice and returns that location as a vector<int>
 std::vector<int> GetPlayerChoice() {
     int row;
     int col;
